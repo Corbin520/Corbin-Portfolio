@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/images/background_beach.png");
+    background-image: url("./assets/images/golfCourse.jpeg");
     background-size: 100%;
     height: auto;
 }
@@ -8,9 +8,40 @@ h1 {
     text-align: center;
     font-size: 85px;
     font-weight: bold;
+    font-family: 'Cookie', cursive;
 }
 
 #bio {
     text-align: center;
+    font-size: 30px;
+    /* font-weight: bold; */
+    font-family: 'Cookie', cursive;
+    color: white;
+}
+
+#avatar-image {
+    border-radius: 50%;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-me, .portfolio,
+.resume, .contact {
     font-size: 20px;
+    color: black;
+}
+
+#down-arrow {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
 }
