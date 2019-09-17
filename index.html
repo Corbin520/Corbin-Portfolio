@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Corbins Portfolio</title>
 </head>
 
@@ -19,22 +21,24 @@
     <!-- Get mobile Responsive -->
     <!-- Get groovy with the JS -->
     <!-- Deploy on Heroku or AWS -->
+    <!-- get title picture up there -->
 
 <body>
     <!-- Header -->
     <div class="header">
         <div class="header-buttons">
-            <a class="about-button" href="#">ABOUT ME</a>
-            <a class="portfolio-button" href="#">PORTFOLIO</a>
-            <a class="resume-button" href="#">RESUME</a>
-            <a class="contact-button" href="#">CONTACT</a>
+            <a class="about-button" href="#jump-about">ABOUT ME</a>
+            <a class="portfolio-button" href="#jump-portfolio">PORTFOLIO</a>
+            <a class="resume-button" href="#jump-resume">RESUME</a>
+            <a class="contact-button" href="#jump-contact">CONTACT</a>
         </div>
     </div>
 
 
     <!-- about me section -->
     <div class="main-wrapper">
-        <h1>CORBIN BROCKBANK</h1>
+        <a name="jump-about"></a>
+        <h1 id="main-header">CORBIN BROCKBANK</h1>
         <img id="avatar-image" src="./assets/images/avatar-2.JPG" alt="avatar-image" width="300px" height="300px" />
         <!-- <div id="line"></div> -->
         <div id="bio">
@@ -49,7 +53,7 @@
 
     <!-- Portfolio section -->
     <div class="portfolio-wrapper">
-        <h2 id="portfolio-header">Portfolio</h2>
+        <h2 id="portfolio-header">Portfolio<a name="jump-portfolio"></a></h2>
         <!-- <div id="line"></div> -->
         <div class="skilled-languages">
             <h3>
@@ -186,8 +190,7 @@
         </div>
 
         <div class="resume-container">
-            <h2 id="resume-header">Resume</h2>
-
+            <h2 id="resume-header">Resume<a name="jump-resume"></a></h2>
             <div id="education">
                 <h3 id="education-header">EDUCATION</h3>
                 <h4 id="education-school">UNIVERSITY OF UTAH</h4>
@@ -214,7 +217,7 @@
 
         <!-- Contact Page -->
         <div class="contact-container">
-            <h2 id="contact-header">Contact</h2>
+            <h2 id="contact-header">Contact<a name="jump-contact"></a></h2>
             <p id="contact-info">CORBINBRCKBNK76@GMAIL.COM || (801) 427 1089 || LEHI, UT</p>
             <div class="contact-icons">
                 <div class="logos">
@@ -225,9 +228,22 @@
             </div>
             <p id="say-thanks">Thank you for visiting my page and I hope you enjoyed!</p>
             <p id="say-thanks">Feel free to leave some feedback!</p>
-            <input id="feedback-box" type="text" placeholder="Feed back here">
-            <button id="submit-button" type="submit">Submit</button>
-            <!-- Put a feedback input box here -->
+            <form class="feedback-form">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name (Not required)">
+                </div>
+                <!-- Feedback -->
+                <div class="form-group">
+                    
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Feedback">
+                </div>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">Submit Feedback</button>
+              </form>
+
         </div>
 
     <script src="./app.js" type="text/javascript"></script>

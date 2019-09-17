@@ -6,9 +6,10 @@ body {
     /* height: auto; */
 }
 
-h1 {
+#main-header {
+    margin-top: 35px;
     text-align: center;
-    font-size: 85px;
+    font-size: 60px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
 }
@@ -50,6 +51,8 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
     
 }
 
@@ -117,6 +120,7 @@ a {
 #contact-header {
     clear: both;
     padding-top: 60px;
+    font-size: 65px;
 }
 
 #say-thanks {
@@ -173,6 +177,14 @@ a.fa-linkedin-square {
 #resume-header {
     clear: both;
     padding-top: 70px;
+    font-size: 65px;
+    padding-bottom: 70px;
+}
+
+#portfolio-header {
+    padding-top: 70px;
+    font-size: 65px;
+    padding-bottom: 30px;
 }
 
 #certification-img, #highschool-img {
@@ -201,5 +213,15 @@ a.fa-linkedin-square {
 #contact-info {
     text-align: center;
     font-family: 'Oswald', sans-serif;
+}
+
+.feedback-form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 50px;
 }
 
