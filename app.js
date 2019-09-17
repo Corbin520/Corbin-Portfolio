@@ -1,8 +1,27 @@
+console.log("APP.JS IS RUNNING")
 
 
+// This section will be getting the form input and
+// sending it to SQL DB or Mongo, havent decided yet
 
+// On click event
 $("#submit-button").on("click", function() {
-    
+   var email = $("#email-input").val().trim()
+   var name = $("#name-input").val().trim()
+   var feedback = $("#feedback-input").val().trim()
+
+    // just showing values, delete when done    
+   console.log("Email Input: " + email)
+   console.log("Name Input: " + name)
+   console.log("Feedback: " + feedback)
+
+    // hides all the input boxs after the button is clicked    
+   $("#email-input").hide();
+   $("#name-input").hide();
+   $("#feedback-input").hide();
+
+    // changes the text after submit   
+   $("#submit-button").text("Thanks for your feedback!!");
 })
 
 
@@ -26,16 +45,7 @@ $("#submit-button").on("click", function() {
 
 
 
-
-
-
-
-
-
-
-
-
-// Typing Car
+// Typing Carousel
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
