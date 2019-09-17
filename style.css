@@ -271,31 +271,51 @@ a.fa-linkedin-square {
     padding-bottom: 25px;
 }
 
-@media screen and (max-width: 400px) {
+/* Iphone X */
+@media screen and (max-width: 375px) {
+
+    body {
+        background-image: url("./assets/images/golfCourse.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        width: 375px;
+        
+    }
 
     #avatar-image {
         display: block;
-        margin-left: 90px;
+        margin-left: 40px;
         margin-right: auto;
     }
 
     #main-header {
-        padding-left: 105px;
+        padding-left: 30px;
     }
 
     #bio {
-        margin-left: 105px;
+        margin-left: 5px;
     }
 
     #portfolio-header {
-        margin-left: 105px;
+        margin-left: 15px;
     }
 
     .portfolio-image {
-        margin-left: 150px;
+        margin-left: 115px;
     }
 
     .txt-rotate {
         margin-left: 110px;
     }
+
+    .feedback-form {
+        width: 300px;
+    }
+
+    .contact-container {
+        width: 375px;
+    }
+
+
 }
