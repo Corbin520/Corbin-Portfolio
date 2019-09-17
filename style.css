@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    /* height: auto; */
 }
 
 #main-header {
@@ -47,7 +46,6 @@ h5 {
 
 #avatar-image {
     border-radius: 50%;
-    /* border-style: solid; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -273,3 +271,31 @@ a.fa-linkedin-square {
     padding-bottom: 25px;
 }
 
+@media screen and (max-width: 400px) {
+
+    #avatar-image {
+        display: block;
+        margin-left: 90px;
+        margin-right: auto;
+    }
+
+    #main-header {
+        padding-left: 105px;
+    }
+
+    #bio {
+        margin-left: 105px;
+    }
+
+    #portfolio-header {
+        margin-left: 105px;
+    }
+
+    .portfolio-image {
+        margin-left: 150px;
+    }
+
+    .txt-rotate {
+        margin-left: 110px;
+    }
+}

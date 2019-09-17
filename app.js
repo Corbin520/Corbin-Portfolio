@@ -44,7 +44,6 @@ $("#submit-button").on("click", function() {
 
 
 
-
 // Typing Carousel
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
