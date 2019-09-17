@@ -1,6 +1,41 @@
-console.log("JS running...")
 
-// Text
+
+
+$("#submit-button").on("click", function() {
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Typing Car
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
