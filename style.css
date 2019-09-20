@@ -290,13 +290,14 @@ a.fa-linkedin-square {
 
 
 /* Iphone X */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 375px) {
 
     body {
         background-image: url("./assets/images/golfCourse.jpeg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: 1350px;
+        /* background-size: 1350px; */
+        background-size: cover; 
         width: 375px;
         
     }
