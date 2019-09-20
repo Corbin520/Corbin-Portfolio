@@ -143,6 +143,7 @@ a {
     padding-top: 60px;
     font-size: 65px;
     padding-bottom: 50px;
+    color: white;
 }
 
 #say-thanks, #contact-info {
@@ -150,7 +151,7 @@ a {
     font-size: 20px;
     font-weight: bold;
     padding-top: 20px;
-    color: black;
+    color: white;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -269,6 +270,14 @@ a.fa-linkedin-square {
     text-decoration: underline;
     padding-top: 50px;
     padding-bottom: 25px;
+}
+
+#education-school {
+    color: #ca0714;
+}
+
+#high-school {
+    color: #6a4088
 }
 
 /* Iphone X */
