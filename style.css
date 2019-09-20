@@ -280,24 +280,12 @@ a.fa-linkedin-square {
     color: #6a4088
 }
 
-
-
-
-
-
-
-
-
-
-/* Iphone X */
 @media screen and (max-width: 415px) {
 
     body {
         background-image: url("./assets/images/golfCourse.jpeg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        /* background-size: 1350px;
-        background-size: contain;  */
         background-size: 1800px;
         width: 375px;
     }
@@ -338,6 +326,3 @@ a.fa-linkedin-square {
 
 }
 
-@media screen and (max-width: 415px) {
-
-}
