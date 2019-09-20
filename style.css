@@ -294,11 +294,15 @@ a.fa-linkedin-square {
 
     body {
         background-image: url("./assets/images/golfCourse.jpeg");
-        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /* background-repeat: no-repeat;
         background-attachment: fixed;
-        /* background-size: 1350px; */
-        background-size: cover; 
-        width: 375px;
+        background-size: 1350px;
+        background-size: contain; 
+        width: 375px; */
         
     }
 
@@ -335,6 +339,5 @@ a.fa-linkedin-square {
     .contact-container {
         width: 375px;
     }
-
 
 }
