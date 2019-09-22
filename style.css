@@ -324,5 +324,12 @@ a.fa-linkedin-square {
         width: 375px;
     }
 
+    .about-button, .portfolio-button,
+    .resume-button, .contact-button {
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    }
+
 }
 
