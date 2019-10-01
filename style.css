@@ -54,20 +54,66 @@ h5 {
     
 }
 
-/* Portfolio Section */
 
-/* Targets the portfolio as a whole */
+
+
+
+
+
+
+
+/* controls the background */
 .portfolio-wrapper {
+    margin-top: 60px;
     padding-top: 60px;
+    width: 100%;
+    background: white;
+    opacity: 0.75 ; 
 }
 
 
-/* Targets the header  */
 #portfolio-header {
-    padding-top: 170px;
     font-size: 65px;
-    padding-bottom: 30px;
 }
+
+/* NEW IMAGES */
+.image-container {
+    display: block;
+    text-align: center;
+    /* padding-left: 150px; */
+}
+
+#image {
+    border-radius: 50%;
+}
+#image-text {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+/* this is the old "image-container" */
+/* .portfolio-image{
+
+    float: left;
+    margin: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+    display: block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 
 .full-portfolio-link {
     clear: both;
@@ -165,7 +211,6 @@ h5 {
 
 #portfolio-link {
     color: black;
-
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 
