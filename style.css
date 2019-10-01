@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     background-size: cover;
+    
 }
 
 #main-header {
@@ -51,6 +52,17 @@ h5 {
     padding-top: 100px;
     padding-bottom: 100px;
     
+}
+
+.portfolio-wrapper {
+    padding-top: 60px;
+    
+}
+
+.resume-wrapper {
+    width: 100%;
+    background: white;
+    opacity: 0.75 ; 
 }
 
 #avatar-image {
@@ -123,9 +135,6 @@ h5 {
     padding-top: 30px;
 }
 
-.portfolio-wrapper {
-    padding-top: 60px;
-}
 
 .portfolio-image{
 
