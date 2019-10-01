@@ -9,9 +9,11 @@ body {
 #main-header {
     margin-top: 35px;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 h2 {
@@ -40,12 +42,14 @@ h5 {
 
 #bio {
     text-align: center;
-    font-size: 30px;
+    font-size: 55px;
     font-family: 'Oswald', sans-serif;
     color: black;
     width: 100%;
     background: white;
     opacity: 0.75 ;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -54,7 +58,7 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
     margin-top: 35px;
     
 }
@@ -78,10 +82,27 @@ h5 {
     padding: 50px;
 }
 
+.down-section {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+#view-full {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: gold;
+}
+
 #down-arrow {
     height: 45px;
     width: 45px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 60px;   
 }
 
 #up-arrow {
