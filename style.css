@@ -48,84 +48,64 @@ h5 {
     color: black;
     width: 100%;
     background: white;
-    opacity: 0.75 ;
+    opacity: 0.85 ;
     padding-top: 100px;
     padding-bottom: 100px;
     
 }
 
 
-
-
-
-
-
-
-
 /* controls the background */
 .portfolio-wrapper {
     margin-top: 60px;
-    padding-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
     background: white;
-    opacity: 0.75 ; 
+    opacity: 0.85 ; 
 }
-
 
 #portfolio-header {
     font-size: 65px;
+    padding-bottom: 10px;
+    padding-top: 250px;
 }
+
+
 
 /* NEW IMAGES */
 .image-container {
     display: block;
     text-align: center;
-    /* padding-left: 150px; */
+    padding-left: 125px;
+    float: left;
 }
 
 #image {
     border-radius: 50%;
+    border-style: solid;
 }
+
+
 #image-text {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
 
-/* this is the old "image-container" */
-/* .portfolio-image{
 
-    float: left;
-    margin: 10px;
-    margin-left: 75px;
-    margin-right: 75px;
-    text-align: center;
-    display: block;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-.full-portfolio-link {
+#full-portfolio-link {
     clear: both;
     text-align: center;
+    padding-top: 60px;
 }
 
 .resume-wrapper {
     width: 100%;
     background: white;
-    opacity: 0.75 ; 
+    opacity: 0.85 ; 
+    margin-top: 50px;
 }
-
 
 
 #avatar-image {
@@ -303,7 +283,7 @@ a.fa-linkedin-square {
     padding-top: 70px;
     font-size: 65px;
     padding-top: 170px;
-    padding-top: 200px;
+    padding-top: 275px;
 }
 
 #certification-img, #highschool-img,
