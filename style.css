@@ -41,16 +41,24 @@ h5 {
     font-family: 'Oswald', sans-serif;
 }
 
+#aboutme-header {
+    font-size: 65px;
+    padding-bottom: 45px;
+    padding-top: 250px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
 #bio {
     text-align: center;
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Oswald', sans-serif;
     color: black;
     width: 100%;
     background: white;
     opacity: 0.85 ;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
     
 }
 
@@ -69,6 +77,8 @@ h5 {
     font-size: 65px;
     padding-bottom: 10px;
     padding-top: 250px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -105,6 +115,7 @@ h5 {
     background: white;
     opacity: 0.85 ; 
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 
@@ -214,6 +225,8 @@ a {
     font-size: 65px;
     padding-bottom: 50px;
     color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
 
 .contact-container {
@@ -284,6 +297,7 @@ a.fa-linkedin-square {
     font-size: 65px;
     padding-top: 170px;
     padding-top: 275px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #certification-img, #highschool-img,
