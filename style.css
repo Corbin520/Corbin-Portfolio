@@ -120,6 +120,7 @@ h5 {
     opacity: 0.85 ; 
     margin-top: 50px;
     margin-bottom: 100px;
+    padding-bottom: 125px;
 }
 
 
@@ -357,6 +358,7 @@ a.fa-linkedin-square {
     font-weight: bold;
     text-align: center;
     font-size: 25px;
+    
 }
 
 .portfolio-image{
@@ -373,6 +375,7 @@ a.fa-linkedin-square {
     color:white;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
+    background: black;
 }
 
 #port-img {
@@ -392,7 +395,11 @@ a.fa-linkedin-square {
     padding-top: 15px;
 }
 
-
+#portfolio-info {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
 
 
 
