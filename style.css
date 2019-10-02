@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/images/beach2.jpg");
+    background-image: url("./assets/images/golfCourse.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -104,10 +104,14 @@ h5 {
 }
 
 
-#full-portfolio-link {
+#full-portfolio-link, #all-projects {
     clear: both;
     text-align: center;
     padding-top: 60px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+        
 }
 
 .resume-wrapper {
@@ -158,7 +162,8 @@ h5 {
 #view-full {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
-    color: gold;
+    color: black;
+    font-size: 25px;
 }
 
 #down-arrow {
