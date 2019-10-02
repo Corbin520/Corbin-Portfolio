@@ -194,29 +194,6 @@ h5 {
     padding-top: 30px;
 }
 
-
-.portfolio-image{
-
-    float: left;
-    margin: 10px;
-    margin-left: 75px;
-    margin-right: 75px;
-    text-align: center;
-    display: block;
-}
-
-#portfolio-link {
-    color: black;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-
-}
-
-#port-img {
-    border-radius: 50%;
-    border-style: solid;
-}
-
 a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
@@ -367,6 +344,59 @@ a.fa-linkedin-square {
 #high-school {
     color: #6a4088
 }
+
+
+
+
+/* FULL PORTFOLIO PAGE */
+
+
+#return-home {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.portfolio-image{
+    float: left;
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 75px;
+    text-align: center;
+    display: block;
+    padding-top: 25px;
+}
+
+#portfolio-link {
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#port-img {
+    border-radius: 50%;
+    border-style: solid;
+}
+
+#portfolio-body {
+    background: url("./assets/images/codeBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-size: cover;
+}
+
+#port-page-header {
+    padding-top: 15px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 415px) {
 
