@@ -1,70 +1,27 @@
 console.log("APP.JS IS RUNNING");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyD0GlY-szWM-lRZJZVjtyIYRPbYEARBUDk",
-    authDomain: "cbwebpro-b7f0e.firebaseapp.com",
-    databaseURL: "https://cbwebpro-b7f0e.firebaseio.com",
-    projectId: "cbwebpro-b7f0e",
-    storageBucket: "cbwebpro-b7f0e.appspot.com",
-    messagingSenderId: "1076648968708",
-    appId: "1:1076648968708:web:4812acb25c56d8366eab51",
-    measurementId: "G-9NRTBEBCB7"
+  var Config = {
+    apiKey: "AIzaSyDBR2BdfdsRRm9WBnA4XE31R7EZnlA3f4k",
+    authDomain: "cb-portfolio-new.firebaseapp.com",
+    databaseURL: "https://cb-portfolio-new.firebaseio.com",
+    projectId: "cb-portfolio-new",
+    storageBucket: "cb-portfolio-new.appspot.com",
+    messagingSenderId: "66442205332",
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  firebase.initializeApp(Config);
 
+  var database = firebase.database();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// This section will be getting the form input and
-// sending it to SQL DB or Mongo, havent decided yet
 
 // On click event
 $("#submit-button").on("click", function() {
-   var email = $("#email-input").val().trim()
-   var name = $("#name-input").val().trim()
-   var feedback = $("#feedback-input").val().trim()
+   var emailText = $("#email-input").val().trim()
+   var nameText = $("#name-input").val().trim()
+   var feedbackText = $("#feedback-input").val().trim()
 
-    // just showing values, delete when done    
-   console.log("Email Input: " + email)
-   console.log("Name Input: " + name)
-   console.log("Feedback: " + feedback)
 
     // hides all the input boxs after the button is clicked    
    $("#email-input").hide();
@@ -73,9 +30,22 @@ $("#submit-button").on("click", function() {
 
     // changes the text after submit   
    $("#submit-button").text("Thanks for your feedback!!");
+
+   database.ref().push({
+    dbEmail: emailText,
+    dbName: nameText,
+    dbFeedback: feedbackText,
+
+  });
 })
 
 
+
+firebase.database().ref().on("child_added", function (snapshot) {
+  var dbEmail = snapshot.val().dbEmail;
+  var dbName = snapshot.val().dbName;
+  var dbFeedback = snapshot.val().dbFeedback;
+});
 
 
 
