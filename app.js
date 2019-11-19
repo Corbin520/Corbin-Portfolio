@@ -1,4 +1,55 @@
-console.log("APP.JS IS RUNNING")
+console.log("APP.JS IS RUNNING");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD0GlY-szWM-lRZJZVjtyIYRPbYEARBUDk",
+    authDomain: "cbwebpro-b7f0e.firebaseapp.com",
+    databaseURL: "https://cbwebpro-b7f0e.firebaseio.com",
+    projectId: "cbwebpro-b7f0e",
+    storageBucket: "cbwebpro-b7f0e.appspot.com",
+    messagingSenderId: "1076648968708",
+    appId: "1:1076648968708:web:4812acb25c56d8366eab51",
+    measurementId: "G-9NRTBEBCB7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // This section will be getting the form input and
