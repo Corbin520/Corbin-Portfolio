@@ -87,7 +87,7 @@ h5 {
 .image-container {
     display: block;
     text-align: center;
-    padding-left: 227px;
+    padding-left: 230px;
     float: left;
 }
 
@@ -352,8 +352,12 @@ a.fa-linkedin-square {
     color: #6a4088
 }
 
-
-
+#top3 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
 
 /* FULL PORTFOLIO PAGE */
 
