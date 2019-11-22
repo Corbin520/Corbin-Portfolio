@@ -308,13 +308,6 @@ a.fa-linkedin-square {
     font-family: 'Oswald', sans-serif;
 }
 
-#resume-pdf {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    color: white;
-    box-shadow: 5px 10px 10px 3px gray;
-}
 
 #work {
     padding-bottom: 35px;
