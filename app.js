@@ -1,5 +1,3 @@
-console.log("APP.JS IS RUNNING");
-
 
   // Your web app's Firebase configuration
   var Config = {

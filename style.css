@@ -366,7 +366,7 @@ a.fa-linkedin-square {
 
 
 #return-home {
-    color: white;
+    color: black;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -382,13 +382,18 @@ a.fa-linkedin-square {
     text-align: center;
     display: block;
     padding-top: 25px;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30%;
+    opacity: 0.8;
 }
 
 #portfolio-link {
     color:white;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    background: black;
+    /* background: black; */
 }
 
 #port-img {
@@ -397,7 +402,7 @@ a.fa-linkedin-square {
 }
 
 #portfolio-body {
-    background: url("./assets/images/codeBackground.jpg");
+    background: url("./assets/images/nature.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -410,7 +415,7 @@ a.fa-linkedin-square {
 
 #portfolio-info {
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 25px;
 }
 
